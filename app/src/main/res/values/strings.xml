@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lab_4</string>
+    <string name="redact">Редактировать</string>
+    <string name="textEnter">Введите новый текст</string>
+    <string name="redactElement">Редактировать элемент</string>
+</resources>
