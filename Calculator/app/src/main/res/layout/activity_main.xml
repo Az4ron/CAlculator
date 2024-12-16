@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        <EditText
+            android:id="@+id/fag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FAG"
+            android:layout_margin="20dp"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/cag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/SAG"
+            android:layout_margin="20dp"
+            android:inputType="number"
+            />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+
+        <Button
+            />
+
+        <Button/>
+
+        <Button/>
+
+        <Button/>
+
+        <TextView
+            android:layout_weight="250"
+            android:layout_height="match_parent"/>
+
+    </TableLayout>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

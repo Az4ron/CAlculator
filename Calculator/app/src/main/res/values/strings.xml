@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="FAG">First Argument</string>
+    <string name="SAG">Second Argument</string>
+</resources>
