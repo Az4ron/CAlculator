@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab_navigation"
+    app:startDestination="@id/teslaFragment">
+
+    <fragment
+        android:id="@+id/appleFragment"
+        android:name="com.example.newsreading.fragments.tabs.AppleFragment"
+        android:label="fragment_apple"
+        tools:layout="@layout/fragment_apple" />
+    <fragment
+        android:id="@+id/teslaFragment"
+        android:name="com.example.newsreading.fragments.tabs.TeslaFragment"
+        android:label="fragment_tesla"
+        tools:layout="@layout/fragment_tesla" />
+    <fragment
+        android:id="@+id/USRightNowFragment"
+        android:name="com.example.newsreading.fragments.tabs.USRightNowFragment"
+        android:label="fragment_u_s_right_now"
+        tools:layout="@layout/fragment_u_s_right_now" />
+    <fragment
+        android:id="@+id/techCrunchFragment"
+        android:name="com.example.newsreading.fragments.tabs.TechCrunchFragment"
+        android:label="fragment_tech_crunch"
+        tools:layout="@layout/fragment_tech_crunch" />
+    <fragment
+        android:id="@+id/wallStreetJournalFragment"
+        android:name="com.example.newsreading.fragments.tabs.WallStreetJournalFragment"
+        android:label="fragment_wall_street_journal"
+        tools:layout="@layout/fragment_wall_street_journal" />
+</navigation>
